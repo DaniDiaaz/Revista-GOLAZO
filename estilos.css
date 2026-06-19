@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* BARRA DE NAVEGACIÓN */
+nav {
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+    padding: 20px;
+    top: 0; /* sin el top 0 sticky no funciona */
+    background-color: black;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: red;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.6s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul a:hover {
+    color: red;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 1rem;
+}
