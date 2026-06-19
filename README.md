@@ -1,1 +1,3 @@
 # Revista-GOLAZO
+
+EN CONSTRUCCIÓN
