@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <title>GOLAZO</title>
 </head>
 <body>
@@ -13,21 +14,978 @@
             <ul>
                 <li><a href="#laliga">LaLiga</a></li>
                 <li><a href="#champions">Champions</a></li>
-                <li><a href="#premier">Premier</a></li>
+                <li><a href="#mundial">Mundial</a></li>
                 <li><a href="#transfers">Transfers</a></li>
                 <li><a href="#futbol-modesto">Fútbol Modesto</a></li>
-                <li><a href="#opinion">Opinión</a></li>
+                <li><a href="#seleccion">Selección</a></li>
             </ul>
         </nav>
 
+        <!-- NOTICIAS QUE SE MUEVEN -->
+         <div class="ticker">
+            <span class="ticker-label">🔴 Última hora</span>
+            <div class="ticker-contenedor">
+                <div class="ticker-texto">
+                    <span>· Vinicius Jr da una exhibición ·</span>
+                    <span>· El Real Madrid quiere hacer caja con Nico Paz ·</span>
+                    <span>· Ya sabemos los grupos de Primera y Segunda RFEF ·</span>
+                    <span>· Sudáfrica da la sorpresa ·</span>
+                    <span>· Continúa el culebrón Julián Álvarez ·</span>
+                    <span>· España se juega mañana el primer puesto ·</span>
+                    <span>· Los jugadores del Real Madrid brillan en el Mundial ·</span>
+                    <span>· El Atlético de Madrid quiere cerrar a Grimaldo ·</span>
+                    <span>· El Estadio de Vallecas será reformado ·</span>
+                    <span>· Rubi será cesado del banquillo del Almería ·</span>
+                    <span>· Iñaki Peña, al Panathinaikos ·</span>
+                </div>
+            </div>
+         </div>
+
         <section class="hero">
             <article class="noticia-principal">
-                <img src="" alt="noticia principal">
-                <label>LaLiga</label>
-                <h2 class="titulo-noticia">Marc Cucurella ficha por el Real Madrid</h2>
-                <p class="descripcion">El Real Madrid hizo oficial el pasado lunes el fichaje de Marc Cucurella, un fichaje expréss</p>
-                <p autor></p>
+                <div class="contenido-noticia">
+                    <span class="categoria">LaLiga</span>
+                    <h2 class="titulo-noticia">Marc Cucurella ficha por el Real Madrid</h2>
+                    <p class="descripcion-principal">El Real Madrid hizo oficial el pasado lunes el fichaje de Marc Cucurella, un fichaje expréss.</p>
+                    <p class="autor">Daniel Díaz Arroyo</p>
+                    <time datetime="2026-06-22">22/06/2026</time>
+                </div>
             </article>
+
+        <div class="noticias-secundarias">
+            <article>
+                <img src="malaga-ascenso.jpeg" alt="ascenso-malaga">
+                <span class="categoria">LaLiga</span>
+                <h3 class="titulo-noticia">El Málaga vuelve a tocar el cielo 8 años después</h3>
+                <p class="descripcion">Después de pasar por el infierno, el Málaga vuelve a Primera División con un equipo repleto de canteranos.</p>
+                <p class="autor">Daniel Díaz Arroyo</p>
+                <time datetime="2026-06-22">22/06/2026</time>
+            </article>
+
+            <article>
+                <img src="oyarzabal-lamine.jpg" alt="oyarzabal y lamine">
+                <span class="categoria">Selección</span>
+                <h3 class="titulo-noticia">Oyarzabal y Lamine brillan ante Arabia Saudí</h3>
+                <p class="descripcion">Victoria de España por 4-0 con dos goles de Oyarzabal y otro de Lamine Yamal.</p>
+                <p class="autor">Daniel Díaz Arroyo</p>
+                <time datetime="2026-06-22">22/06/2026</time>
+            </article>
+        </div>
         </section>
+
+        <!-- BARRA DE RESULTADOS -->
+         <div class="barra-wrapper">
+            <button class="flecha flecha-izq">&#8249;</button>
+            <div class="barra-resultados"></div>
+            <button class="flecha flecha-der">&#8250;</button>
+         </div>
+
+        <!-- GRID NOTICIAS -->
+         <section>
+            <div class="titulo-noticias">
+                <div class="linea-roja"></div>
+                <h2>Últimas noticias</h2>
+                <div class="linea"></div>
+            </div>
+            <div class="grid-noticias">
+                <article>
+                    <img src="cabo-uruguay.jpg" alt="cabo verde vs uruguay">
+                    <span class="categoria">Selección</span>
+                    <h4>Uruguay y Cabo Verde empatan</h4>
+                    <p class="grid">Con este empate a España le vale un empate para ser primera de grupo.</p>
+                </article>
+                <article>
+                    <img src="almada.jpeg" alt="almada">
+                    <span class="categoria">Transfers</span>
+                    <h4>El Al-Ahli ofrece cerca de 30 millones por Almada</h4>
+                    <p class="grid">El equipo saudí ha ofrecido cerca de 30 millones por el argentino, pero hasta que no termine el Mundial no habrá decisión.</p>
+                </article>
+                <article>
+                    <img src="Sabadell-ascenso.jpeg" alt="ascenso del Sabadell">
+                    <span class="categoria">Fútbol Modesto</span>
+                    <h4>El Sabadell regresa a Segunda División 5 temporadas después</h4>
+                    <p class="grid">Tras golear al Zamora por 4-0 en casa, el Sabadell regresa a la categoría de plata 5 temporadas después.</p>
+                </article>
+                <article>
+                    <img src="laliga-sorteo.jpg" alt="sorteo de la liga">
+                    <span class="categoria">LaLiga</span>
+                    <h4>El calendario de la próxima temporada se aununciará el 30 de junio</h4>
+                    <p class="grid">Mientras que otras ligas ya saben los horarios y partidos de la primera jornada, la liga española lo sorteará el próximo día 30 de junio.</p>
+                </article>
+            </div>
+         </section>
+
+         <!-- DOS COLUMNAS -->
+          <div class="titulo-noticias">
+                <div class="linea-roja"></div>
+                <h2>Más noticias</h2>
+                <div class="linea"></div>
+            </div>
+         <section class="dos-columnas">
+            <div class="lista-noticias">
+                <article class="noticia-lista">
+                    <img src="mbappe.jpg" alt="mbappe francia">
+                    <div>
+                        <span class="categoria">Mundial</span>
+                        <h4>Mbappé hace historia</h4>
+                        <time datetime="2026-06-23">Hace 2 horas</time>
+                    </div>
+                </article>
+
+                <article class="noticia-lista">
+                    <img src="haaland.jpg" alt="haaland celebrando el gol">
+                    <div>
+                        <span class="categoria">Mundial</span>
+                        <h4>Haaland es una apisonadora</h4>
+                        <time datetime="2026-06-23">Hace 2 horas</time>
+                    </div>
+                </article>
+
+                <article class="noticia-lista">
+                    <img src="primera-rfef.jpeg" alt="mapa de la primera federación">
+                    <div>
+                        <span class="categoria">Fútbol Modesto</span>
+                        <h4>El 30 de junio sabremos el calendario de la Primera Federación</h4>
+                        <time datetime="2026-06-23">Hace 2 horas</time>
+                    </div>
+                </article>
+
+                <article class="noticia-lista">
+                    <img src="segunda-rfef.jpg" alt="mapa de la segunda federación">
+                    <div>
+                        <span class="categoria">Fútbol Modesto</span>
+                        <h4>El día 1 sabremos el reparto de grupos en la Segunda Federación</h4>
+                        <time datetime="2026-06-23">Hace 2 horas</time>
+                    </div>
+                </article>
+
+                <article class="noticia-lista">
+                    <img src="grimaldo.jpg" alt="grimaldo">
+                    <div>
+                        <span class="categoria">Transfers</span>
+                        <h4>Grimaldo está cerca de fichar por el Atlético de Madrid</h4>
+                        <time datetime="2026-06-23">Hace 2 horas</time>
+                    </div>
+                </article>
+
+                <article class="noticia-lista">
+                    <img src="canales.jpeg" alt="canales vuelve al Racing">
+                    <div>
+                        <span class="categoria">Transfers</span>
+                        <h4>Sergio Canales vuelve al Racing de Santander 16 años después</h4>
+                        <time datetime="2026-06-23">Hace 2 horas</time>
+                    </div>
+                </article>
+
+                <article class="noticia-lista">
+                    <img src="deportivo.png" alt="escudo deportivo">
+                    <div>
+                        <span class="categoria">LaLiga</span>
+                        <h4>El Deportivo de la Coruña cambia de nombre con el 80% de los votos de los abonados</h4>
+                        <time datetime="2026-06-23">Hace 5 minutos</time>
+                    </div>
+                </article>
+            </div>
+
+            <div class="sidebar">
+                <div class="titulo-noticias">
+                    <div class="linea-roja"></div>
+                    <h2>Grupos del Mundial</h2>
+                    <div class="linea"></div>
+                </div>
+            <details class="grupo">
+                <summary>Grupo A</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>México</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Corea del Sur</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Chequia</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>-1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Sudáfrica</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>-2</td>
+                            <td>1</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo B</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Canadá</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>6</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Suiza</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Bosnia y Herzegovina</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>-3</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Catar</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>-6</td>
+                            <td>1</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo C</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Brasil</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Marruecos</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Escocia</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Haití</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>-4</td>
+                            <td>0</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo D</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Estados Unidos</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Australia</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Paraguay</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>-2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Turquía</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>-3</td>
+                            <td>0</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo E</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alemania</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>7</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Costa de Marfil</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Ecuador</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>-1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Curazao</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>-6</td>
+                            <td>1</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo F</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Países Bajos</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>4</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Japón</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>4</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Suecia</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Túnez</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>-8</td>
+                            <td>0</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo G</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Egipto</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Irán</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Bélgica</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Nueva Zelanda</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>-2</td>
+                            <td>1</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo H</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>España</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>4</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Uruguay</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Cabo Verde</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Arabia Saudita</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>-4</td>
+                            <td>1</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo I</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Francia</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Noruega</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>4</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Senegal</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>-3</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Irak</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>-6</td>
+                            <td>0</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo J</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Argentina</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Austria</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Argelia</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>-2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Jordania</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>-3</td>
+                            <td>0</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo K</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Colmbia</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>RD Congo</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Portugal</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Uzbekistán</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>-2</td>
+                            <td>0</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+
+                <details class="grupo">
+                <summary>Grupo L</summary>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Inglaterra</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Ghana</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Panamá</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>-1</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Croacia</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>-2</td>
+                            <td>0</td>
+                            </tr>
+                        </tbody>
+                 </table>
+                </details>
+            </div>
+        </section>
+
+        <!-- TUITS Y TRANSFERS -->
+         <section class="seccion-extra">
+            <div class="tuits-col">
+                <div class="titulo-noticias">
+                    <div class="linea-roja"></div>
+                    <h2>Viral</h2>
+                    <div class="linea"></div>
+                </div>
+                <div class="grid-tuits">
+                    <a href="https://twitter.com/marca/status/123456789" target="_blank" class="tweet">
+                        <div class="tweet-header">
+                            <img src="marca.png" alt="Marca">
+                            <div>
+                                <span class="tweet-nombre">Marca</span>
+                                <span class="tweet-handle">@marca</span>
+                            </div>
+                        </div>
+                        <p class="tweet-texto">Mbappé marca en su debut con Francia 🔥</p>
+                        <span class="tweet-time">Hace 30 minutos</span>
+                    </a>
+                    <a href="https://twitter.com/marca/status/123456789" target="_blank" class="tweet">
+                        <div class="tweet-header">
+                            <img src="marca.png" alt="Marca">
+                            <div>
+                                <span class="tweet-nombre">Marca</span>
+                                <span class="tweet-handle">@marca</span>
+                            </div>
+                        </div>
+                        <p class="tweet-texto">Mbappé marca en su debut con Francia 🔥</p>
+                        <span class="tweet-time">Hace 30 minutos</span>
+                    </a>
+                    <a href="https://twitter.com/marca/status/123456789" target="_blank" class="tweet">
+                        <div class="tweet-header">
+                            <img src="marca.png" alt="Marca">
+                            <div>
+                                <span class="tweet-nombre">Marca</span>
+                                <span class="tweet-handle">@marca</span>
+                            </div>
+                        </div>
+                        <p class="tweet-texto">Mbappé marca en su debut con Francia 🔥</p>
+                        <span class="tweet-time">Hace 30 minutos</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="transfers-col">
+                <div class="titulo-noticias">
+                    <div class="linea-roja"></div>
+                    <h2>Lo más comentado</h2>
+                    <div class="linea"></div>
+                </div>
+                <div id="noticias-transfers"></div>
+            </div>
+         </section>
+
+        <!-- VIDEOS DESTACADOS -->
+         <section class="videos">
+            <div class="titulo-noticias">
+                <div class="linea-roja"></div>
+                <h2>Vídeos</h2>
+                <div class="linea"></div>
+            </div>
+            <div class="grid-videos">
+                <article class="video-card">
+                    <a href="https://www.youtube.com/watch?v=3lU656AB_jk" target="_blank">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/3lU656AB_jk/maxresdefault.jpg" alt="Francia vs Iraq">
+                            <div class="play-btn">▶</div>
+                        </div>
+                    </a>
+                    <span class="categoria">Mundial</span>
+                    <h4>Resumen: Francia 3-0 Iraq</h4>
+                </article>
+
+                <article class="video-card">
+                    <a href="https://www.youtube.com/watch?v=1WdWQStvGBY" target="_blank">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/1WdWQStvGBY/maxresdefault.jpg" alt="Francia vs Iraq">
+                            <div class="play-btn">▶</div>
+                        </div>
+                    </a>
+                    <span class="categoria">Mundial</span>
+                    <h4>Resumen: Argentina 2-0 Austria</h4>
+                </article>
+
+                <article class="video-card">
+                    <a href="https://www.youtube.com/watch?v=j-t3xFxTEQk" target="_blank">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/j-t3xFxTEQk/maxresdefault.jpg" alt="Francia vs Iraq">
+                            <div class="play-btn">▶</div>
+                        </div>
+                    </a>
+                    <span class="categoria">LaLiga</span>
+                    <h4>Julián Álvarez: "Quiero cumplir mi sueño"</h4>
+                </article>
+            </div>
+         </section>
+
+         <footer>
+            <div class="footer-top">
+                <a href="#" class="logo">GOL<span>AZO</span></a>
+                <div class="footer-columnas">
+                    <div class="footer-col">
+                        <h5>Ligas</h5>
+                        <ul>
+                            <li><a href="#laliga">LaLiga</a></li>
+                            <li><a href="#premier">Premier</a></li>
+                            <li><a href="#champions">Champions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Secciones</h5>
+                        <ul>
+                            <li><a href="#transfers">Transfers</a></li>
+                            <li><a href="#futbol-modesto">Fútbol Mod.</a></li>
+                            <li><a href="#seleccion">Selección</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Síguenos</h5>
+                        <ul>
+                            <li><a href="#twitter">X</a></li>
+                            <li><a href="#instagram">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 GOLAZO. Todos los derechos reservados.</p>
+            </div>
+         </footer>
+<script src="scripts.js"></script>
 </body>
 </html>
