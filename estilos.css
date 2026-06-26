@@ -493,26 +493,46 @@ span.equipo {
 }
 
 /* TUITS Y FICHAJES */
-.grid-tuits {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-}
-
-.tiktok-item {
+.tabla-goleadores {
     width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
-.tiktok-embed {
-    max-width: 100% !important;
-    min-width: 0 !important;
-}
-
-.tiktok-descripcion {
+.tabla-goleadores th {
+    background-color: rgb(92, 1, 1);
+    color: white;
     font-size: 0.9rem;
-    color: #333;
-    margin-top: 0.5rem;
-    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.tabla-goleadores td {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 0.9rem;
+}
+
+.tabla-goleadores tbody tr:first-child td {
+    font-weight: 700;
+    color: red;
+}
+
+.tabla-goleadores tbody tr:hover {
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.tabla-goleadores td:first-child {
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.tabla-goleadores td:last-child {
+    font-weight: 700;
 }
 
 .transfers-col {
